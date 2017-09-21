@@ -18,11 +18,6 @@ namespace TVAPITest
         {
             TeamviewerRootObject _deviceList = null;
 
-            ////TODO: Remove this
-            //_deviceList = TeamviewerAPI.getDevices();
-            //ShowDevices(_deviceList);
-            //Console.ReadKey();
-
             Console.WriteLine("Gathering System Information, please wait...");
 
             //get the remote control id of the client's computer
